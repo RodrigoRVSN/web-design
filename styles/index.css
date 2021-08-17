@@ -7,6 +7,7 @@ nav{
 .nav-content{
     display: flex;
     margin-right: 100px;
+    background-color: var(--dark-black);
 }
 
 .nav-content > h4 {
