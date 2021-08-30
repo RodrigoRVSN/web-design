@@ -15,6 +15,7 @@
 body {
   font-family: "Roboto Mono", sans-serif;
   background-color: var(--background);
+  overflow-x: hidden;
 }
 
 a {
@@ -29,4 +30,20 @@ a {
 a:hover {
   opacity: 0.8;
   border-bottom: 1px solid var(--gray);
+}
+
+::-webkit-scrollbar {
+  background-color: var(--light-black);
+  width: 0.3rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--yellow);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--light-black);
+}
+
+li{
+  list-style: none;
 }
