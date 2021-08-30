@@ -19,14 +19,32 @@
     <title>NOTICIAS | R.E.L. GAMES</title>
   </head>
   <body>
-    <nav class="navbar">
-      <h4><a href="/">INÍCIO</a></h4>
-      <img src="./assets/logo.svg" alt="logo r.e.l." />
-      <div class="navbar__content">
-        <h4><a href="/news.html" class="navbar__active">NOTÍCIAS</a></h4>
-        <h4><a href="/about.html">SOBRE</a></h4>
-      </div>
-    </nav>
+    <header id="navbar">
+      <button
+        id="navbar__btn-hamburguer"
+        aria-label="Abrir Menu"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+      >
+        <img
+          class="navbar__btn-hamburguer__logo"
+          src="./assets/logo.svg"
+          alt="logo r.e.l."
+        />
+        <span id="hamburguer"></span>
+      </button>
+      <ul id="navbar__menu">
+        <li><a href="/">INÍCIO</a></li>
+        <li id="navbar__menu__img">
+          <img src="./assets/logo.svg" alt="logo r.e.l." />
+        </li>
+        <div class="navbar__content">
+          <li><a href="/news.html" class="navbar__active">NOTÍCIAS</a></li>
+          <li><a href="/about.html">SOBRE</a></li>
+        </div>
+      </ul>
+    </header>
 
     <h2>Notícias</h2>
 

@@ -17,7 +17,7 @@
   list-style: none;
 }
 
-#navbar #navbar__menu #navbar__active {
+#navbar #navbar__menu .navbar__active {
   border-bottom: 1px solid var(--gray);
 }
 
