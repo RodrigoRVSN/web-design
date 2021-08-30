@@ -1,0 +1,8 @@
+@keyframes slideUpToDown {
+  from {
+    margin-top: -10rem;
+  }
+  to {
+    margin-top: 0;
+  }
+}

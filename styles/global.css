@@ -2,6 +2,8 @@
   --dark-black: #121317;
   --light-black: #06111c;
   --yellow: #f2db0b;
+  --gray: #808080;
+  --background: #212020;
 }
 
 * {
@@ -12,6 +14,19 @@
 
 body {
   font-family: "Roboto Mono", sans-serif;
-  background-color: var(--light-black);
-  color: yellow;
+  background-color: var(--background);
+}
+
+a {
+  text-decoration: none;
+  color: var(--yellow);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  transition: ease-in 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  opacity: 0.8;
+  border-bottom: 1px solid var(--gray);
 }

@@ -1,0 +1,45 @@
+/* Preenche a altura da navbar */
+.separator {
+  padding-top: 6.125rem;
+}
+
+.navbar {
+  background-color: var(--dark-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  height: 6.125rem;
+  font-size: 1.25rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  animation: slideUpToDown 0.2s;
+}
+
+.navbar__active {
+  border-bottom: 1px solid var(--gray);
+}
+
+.navbar img {
+  height: 91px;
+  width: 370px;
+  margin-left: 10vw;
+}
+
+.navbar .navbar__content {
+  display: flex;
+  gap: 3rem;
+}
+
+@media (max-width: 930px) {
+  .nav-content {
+    margin-right: 20px;
+  }
+
+  .nav-content > h4 {
+    margin-right: 40px;
+  }
+}
