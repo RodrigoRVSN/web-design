@@ -16,6 +16,7 @@ body {
   font-family: "Roboto Mono", sans-serif;
   background-color: var(--background);
   overflow-x: hidden;
+  /* cursor: none; */
 }
 
 a {
@@ -47,3 +48,11 @@ a:hover {
 li{
   list-style: none;
 }
+
+/* .cursor{
+  position: fixed;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 80%;
+  background: var(--yellow);
+} */
