@@ -28,6 +28,12 @@ a {
   border-bottom: 1px solid transparent;
 }
 
+p, h1, h2, h3, h4, h5 {
+  color: var(--yellow);
+  text-align: center; 
+}
+
+
 a:hover {
   opacity: 0.8;
   border-bottom: 1px solid var(--gray);
