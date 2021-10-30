@@ -1,0 +1,63 @@
+#start-two {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../assets/gamer_person.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+
+.p1 {
+    position: absolute;
+    width: 686px;
+    height: 80px;
+    left: 80px;
+    top: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 57px;
+    display: flex;
+    align-items: flex-end;
+    color: #F2DB0B;
+}
+
+.p2 {
+    position: absolute;
+    width: 598px;
+    height: 80px;
+    left: 80px;
+    top: 200px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    color: #F2DB0B;
+    text-align: justify;
+}
+
+.p3 {
+    position: absolute;
+    width: 684px;
+    height: 80px;
+    left: 80px;
+    top: 300px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    color: #F2DB0B;
+    text-align: justify;
+}
