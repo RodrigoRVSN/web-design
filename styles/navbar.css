@@ -109,10 +109,17 @@
   }
 
   #hamburguer {
-    border-top: 0.1rem solid;
-    width: 1.5rem;
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 0.1rem;
+    background: var(--yellow);
+    margin-top: 0.2rem;
+    transition: 0.4s;
+    position: relative;
   }
-  #hamburguer::after,
+
+  #hamburguer::after, 
   #hamburguer::before {
     content: "";
     display: block;

@@ -18,6 +18,7 @@
   gap: 2.6rem;
 }
 
+
 .container__card__individual {
   display: flex;
   flex-direction: column;
@@ -44,8 +45,9 @@
 }
 
 .container__card__individual:hover {
-  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25);
-  transform: scale(1.1);
+  animation: flip 1s forwards;
+  box-shadow: 5px 10px 10px yellow;
+  cursor: pointer;
 }
 
 @media (max-width: 1050px) {
@@ -62,3 +64,4 @@
     transform: scale(1.05);
   }
 }
+

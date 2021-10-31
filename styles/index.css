@@ -1,50 +1,35 @@
 #geek {
-    width: 100vw;
-    height: 70vh;
-    background-image: url('../assets/geek.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: rgba(0,0,0,0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    mix-blend-mode: overlay;
+  width: 100vw;
+  height: 70vh;
+  background-image: url("../assets/geek.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  mix-blend-mode: overlay;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -16vh;
+}
+
 .controller {
-    position: absolute;
-    width: 122px;
-    height: 81px;
-    left: 600px;
-    top: 380px;
-    background: url('../assets/play.svg');
+  z-index: 1;
+  width: 122px;
+  height: 81px;
 }
- .p-geek-1 {
-    position: absolute;
-    width: 600px;
-    height: 50px;
-    left: 378px;
-    top: 450px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    display: flex;
-    align-items: flex-end;
-    color: #F2DB0B;
-    justify-content: center;
- }
- .p-geek-2 {
-    position: absolute;
-    width: 500px;
-    height: 50px;
-    left: 400px;
-    top: 490px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    display: flex;
-    align-items: flex-end;
-    color: #F2DB0B;
-    justify-content: center;
- }
+
+.p-geek-1 {
+  font-family: Rubik;
+  font-size: 30px;
+}
+
+.p-geek-2 {
+  font-family: Rubik;
+  font-size: 30px;
+}
