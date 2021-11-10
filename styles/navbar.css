@@ -4,6 +4,10 @@
   background-color: var(--dark-black);
   height: 6.125rem;
   font-size: 1.25rem;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
 }
 
 #navbar #navbar__menu {
@@ -15,6 +19,7 @@
   animation: slideUpToDown 0.2s;
   z-index: 1;
   list-style: none;
+  width: 100vw;
 }
 
 #navbar #navbar__menu .navbar__active {

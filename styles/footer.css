@@ -1,6 +1,6 @@
 main{
+  padding-top: 6.125rem;
   min-height: calc(100vh - 6.125rem - 6rem);
-  margin-bottom: 4rem;
 }
 
 footer {
@@ -20,4 +20,11 @@ footer {
 footer > span {
   font-size: 4rem;
   color: var(--yellow);
+}
+
+
+@media (max-width: 615px) {
+  footer {
+    flex-direction: column;
+  }
 }
