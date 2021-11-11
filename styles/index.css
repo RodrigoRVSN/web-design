@@ -25,6 +25,25 @@ main .page-1 {
   gap: 0.5rem;
 }
 
+.controller:hover {
+  animation: controller-animation 1s ease-out forwards infinite;
+}
+
+@keyframes controller-animation {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .p-geek-1 {
   font-family: Rubik;
   font-size: 30px;
@@ -41,7 +60,48 @@ main .page-1 {
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
-  background-color: black;
+  background: linear-gradient(0, #04012c, #000000);
+}
+
+.stars{
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 50px 30px white,
+    100px 80px white,
+    80px 120px white,
+    300px 20px white,
+    250px 130px white,
+    200px 50px white,
+    150px 100px white,
+    320px 100px white;
+    animation: anim-stars 10s linear infinite;
+}
+
+@keyframes anim-stars {
+  from {
+      transform: translateY(0px);
+  }
+  to {
+      transform: translateY(-150px);
+  }
+}
+
+.stars2{
+  position: relative;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white,
+    125px 35px white,
+    50px 80px white,
+    10px 120px white,
+    275px 90px white,
+    230px 10px white,
+    120px 130px white,
+    300px 130px white,
+    220px 115px white;
+  animation: anim-stars 20s linear infinite;
 }
 
 #page-2 > article {
@@ -78,13 +138,68 @@ main .page-1 {
 .img-rel {
   width: 97px;
   height: 25px;
+  box-shadow: 2px 2px 2px yellow;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.img-rel:hover {
+  animation: img-animation 1s ease-in-out forwards;
+}
+
+@keyframes img-animation {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @media (max-width: 1315px) {
   #page-1 {flex-direction: column;}
   #page-2 {flex-direction: column;}
-  #page-2 > article {margin-top: 8rem;}
+  #page-2 > article {margin-top: 5rem;}
   #page-2 > img {
     width: 16rem;
   }
+}
+
+@media (max-width: 625px) {
+  #page-1 {flex-direction: column;}
+  #page-2 {flex-direction: column;}
+  #page-2 > article {margin-top: 5rem;}
+  #page-2 > img {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 608px) {
+  #page-1 {flex-direction: column;}
+  #page-2 {flex-direction: column;}
+  #page-2 > article {margin-top: 5rem;}
+  #page-2 > img {
+    width: 10rem;
+  }
+  .p-geek-3 {font-size: 20px;}
+  .p-geek-4 {font-size: 20px;}
+  .p-geek-5 {font-size: 20px;}
+}
+
+@media (max-width: 253px) {
+  #page-1 {flex-direction: column;}
+  #page-2 {flex-direction: column;}
+  #page-2 > article {margin-top: 5rem;}
+  #page-2 > img {
+    display: none;
+  }
+  .p-geek-3 {font-size: 20px;}
+  .p-geek-4 {font-size: 20px;}
+  .p-geek-5 {font-size: 20px;}
 }
