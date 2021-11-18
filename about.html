@@ -1,115 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../styles/global.css" />
-    <link rel="stylesheet" href="../styles/about.css" />
-    <link rel="stylesheet" href="../styles/navbar.css" />
-    <link rel="stylesheet" href="../styles/footer.css" />
-    <link rel="stylesheet" href="../styles/animations.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="/assets/play.svg" type="image/x-icon" />
-    <title>Sobre | R.E.L. GAMES</title>
-  </head>
-  <body>
-    <header id="navbar">
-      <button
-        id="navbar__btn-hamburguer"
-        aria-label="Abrir Menu"
-        aria-haspopup="true"
-        aria-controls="menu"
-        aria-expanded="false"
-      >
-        <img
-          class="navbar__btn-hamburguer__logo"
-          src="./assets/logo.svg"
-          alt="logo r.e.l."
-        />
-        <span id="hamburguer"></span>
-      </button>
-      <ul id="navbar__menu">
-        <li><a href="/">INÍCIO</a></li>
-        <li id="navbar__menu__img">
-          <img src="./assets/logo.svg" alt="logo r.e.l." />
+  <link rel="stylesheet" href="../styles/global.css" />
+  <link rel="stylesheet" href="../styles/about.css" />
+  <link rel="stylesheet" href="../styles/navbar.css" />
+  <link rel="stylesheet" href="../styles/footer.css" />
+  <link rel="stylesheet" href="../styles/animations.css" />
+  <meta name="description" content="Site geek para você se divertir com notícias desse mundo NÃO cringe!">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="/assets/play.svg" type="image/x-icon" />
+  <title>Sobre | R.E.L. GAMES</title>
+</head>
+
+<body>
+  <header id="navbar">
+    <button id="navbar__btn-hamburguer" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu"
+      aria-expanded="false">
+      <img class="navbar__btn-hamburguer__logo" src="./assets/logo.svg" alt="logo r.e.l." />
+      <span id="hamburguer"></span>
+    </button>
+    <ul id="navbar__menu">
+      <li><a rel="noopener" href=" /">INÍCIO</a></li>
+      <li id="navbar__menu__img">
+        <img src="./assets/logo.svg" alt="logo r.e.l." />
+      </li>
+      <ul class="navbar__content">
+        <li><a rel="noopener" href=" /news.html">NOTÍCIAS</a></li>
+        <li>
+          <a rel="noopener" href=" /about.html" class="navbar__active">SOBRE</a>
         </li>
-        <div class="navbar__content">
-          <li><a href="/news.html">NOTÍCIAS</a></li>
-          <li>
-            <a href="/about.html" class="navbar__active">SOBRE</a>
-          </li>
-        </div>
       </ul>
-    </header>
+    </ul>
+  </header>
 
-    <main class="container">
-      <h1>A EQUIPE</h1>
-      <section class="container__card">
-        <div class="container__card__individual">
-          <img
-            src="/assets/enzo.svg"
-            alt="foto enzo"
-            class="container__card__individual__photo"
-          />
-          <h3>Enzo Pasqualini</h3>
-          <a href="https://www.instagram.com/enzo_pasqualini/" target="_blank">
-            <img
-              src="/assets/instagram.svg"
-              alt="instagram"
-              class="container__card__individual__instagram"
-            />
-          </a>
-        </div>
+  <main class="container">
+    <h1>A EQUIPE</h1>
+    <section class="container__card">
+      <div class="container__card__individual">
+        <img loading="lazy" src="/assets/enzo.svg" alt="foto Enzo" class="container__card__individual__photo" />
+        <h2>Enzo Pasqualini</h2>
+        <a rel="noopener" href=" https://www.instagram.com/enzo_pasqualini/" target="_blank">
+          <img loading="lazy" src="/assets/instagram.svg" alt="instagram"
+            class="container__card__individual__instagram" />
+        </a>
+      </div>
 
-        <div class="container__card__individual">
-          <img
-            src="/assets/leticia.svg"
-            alt="foto leticia.svg"
-            class="container__card__individual__photo"
-          />
-          <h3>Letícia Nepomucena</h3>
-          <a href="https://www.instagram.com/leeh_nep/" target="_blank">
-            <img
-              src="/assets/instagram.svg"
-              alt="instagram"
-              class="container__card__individual__instagram"
-            />
-          </a>
-        </div>
+      <div class="container__card__individual">
+        <img loading="lazy" src="/assets/leticia.svg" alt="foto Leticia"
+          class="container__card__individual__photo" />
+        <h2>Letícia Nepomucena</h2>
+        <a rel="noopener" href=" https://www.instagram.com/leeh_nep/" target="_blank">
+          <img loading="lazy" src="/assets/instagram.svg" alt="instagram"
+            class="container__card__individual__instagram" />
+        </a>
+      </div>
 
-        <div class="container__card__individual">
-          <img
-            src="/assets/rodrigo.svg"
-            alt="foto rodrigo.svg"
-            class="container__card__individual__photo"
-          />
-          <h3>Rodrigo Victor</h3>
-          <a href="https://www.instagram.com/rodrigo_rvsn/" target="_blank">
-            <img
-              src="/assets/instagram.svg"
-              alt="instagram"
-              class="container__card__individual__instagram"
-            />
-          </a>
-        </div>
-      </section>
-    </main>
-    <div class="cursor"></div>
+      <div class="container__card__individual">
+        <img loading="lazy" src="/assets/rodrigo.svg" alt="foto Rodrigo"
+          class="container__card__individual__photo" />
+        <h2>Rodrigo Victor</h2>
+        <a rel="noopener" href=" https://www.instagram.com/rodrigo_rvsn/" target="_blank">
+          <img loading="lazy" src="/assets/instagram.svg" alt="instagram"
+            class="container__card__individual__instagram" />
+        </a>
+      </div>
+    </section>
+  </main>
+  <div class="cursor"></div>
 
-    <footer>
-      <span>R.E.L</span>
-      <p>Web-Design</p>
-    </footer>
+  <footer>
+    <span>R.E.L</span>
+    <p>Web-Design</p>
+  </footer>
 
-    <script src="/scripts/menu.js"></script>
-    <script src="/scripts/cursor.js"></script>
-  </body>
+  <script src="/scripts/menu.js"></script>
+</body>
+
 </html>

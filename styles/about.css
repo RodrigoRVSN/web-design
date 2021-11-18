@@ -36,12 +36,18 @@
   font-size: 1.4rem;
 }
 
+.container__card__individual > img{
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
 .container__card__individual__photo {
   width: 12.5rem;
 }
 
 .container__card__individual__instagram {
   width: 2.5rem;
+  height: 2.5rem;
 }
 
 .container__card__individual:hover {

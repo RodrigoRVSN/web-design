@@ -1,270 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/global.css" />
-    <link rel="stylesheet" href="../styles/navbar.css" />
-    <link rel="stylesheet" href="../styles/footer.css" />
-    <link rel="stylesheet" href="../styles/animations.css" />
-    <link rel="stylesheet" href="../styles/news.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="shortcut icon" href="/assets/play.svg" type="image/x-icon" />
-    <title>NOTICIAS | R.E.L. GAMES</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/global.css" />
+  <link rel="stylesheet" href="../styles/navbar.css" />
+  <link rel="stylesheet" href="../styles/footer.css" />
+  <link rel="stylesheet" href="../styles/animations.css" />
+  <link rel="stylesheet" href="../styles/news.css" />
+  <meta name="description" content="Site geek para você se divertir com notícias desse mundo NÃO cringe!">
 
-  <body>
-    <header id="navbar">
-      <button
-        id="navbar__btn-hamburguer"
-        aria-label="Abrir Menu"
-        aria-haspopup="true"
-        aria-controls="menu"
-        aria-expanded="false"
-      >
-        <img
-          class="navbar__btn-hamburguer__logo"
-          src="./assets/logo.svg"
-          alt="logo r.e.l."
-        />
-        <span id="hamburguer"></span>
-      </button>
-      <ul id="navbar__menu">
-        <li><a href="/">INÍCIO</a></li>
-        <li id="navbar__menu__img">
-          <img src="./assets/logo.svg" alt="logo r.e.l." />
-        </li>
-        <div class="navbar__content">
-          <li><a href="/news.html" class="navbar__active">NOTÍCIAS</a></li>
-          <li><a href="/about.html">SOBRE</a></li>
-        </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="shortcut icon" href="/assets/play.svg" type="image/x-icon" />
+  <title>NOTICIAS | R.E.L. GAMES</title>
+</head>
+
+<body>
+  <header id="navbar">
+    <button id="navbar__btn-hamburguer" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu"
+      aria-expanded="false">
+      <img loading="lazy" class="navbar__btn-hamburguer__logo" src="./assets/logo.svg" alt="logo r.e.l." />
+      <span id="hamburguer"></span>
+    </button>
+    <ul id="navbar__menu">
+      <li><a href="/">INÍCIO</a></li>
+      <li id="navbar__menu__img">
+        <img loading="lazy" src="./assets/logo.svg" alt="logo r.e.l." />
+      </li>
+      <ul class="navbar__content">
+        <li><a href="/news.html" class="navbar__active">NOTÍCIAS</a></li>
+        <li><a href="/about.html">SOBRE</a></li>
       </ul>
-    </header>
+    </ul>
+  </header>
 
-    <main>
-      <div id="title">
-        <h1>Notícias</h1>
+  <main>
+    <h1 id="title">Notícias</h1>
+
+    <section class="News-container">
+      <div class="blocks">
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener" href="
+              https://www.tecmundo.com.br/voxel/228859-jogos-nuvem-devem-ter-crescimento-us-13-5-bilhoes-2026.htm"
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://tm.ibxk.com.br/2021/11/17/17125719917239.jpg?ims=704x264" /></a>
+          </aside>
+          <h2 class="news-header news-content">
+            Jogos em nuvem devem ter crescimento de US$ 13,5 bilhões até
+            2026
+          </h2>
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener"
+              href="
+              https://www.tecmundo.com.br/voxel/228881-ubisoft-oferece-splinter-cell-chaos-theory-graca-pc.htm#:~:text=Splinter%20Cell%20Chaos%20Theory%20est%C3%A1%20de%20gra%C3%A7a%20para%20PC%20at%C3%A9%2025%20de%20novembro,-17%2F11%2F2021&text=O%20resgate%20do%20t%C3%ADtulo%20pode,foi%20Assassin's%20Creed%20Chronicles%20Trilogy."
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://tm.ibxk.com.br/2021/11/17/17153118144416.jpg?ims=704x264" /></a>
+          </aside>
+          <h2 class="news-header news-content">
+            Splinter Cell Chaos Theory está de graça para PC até 25 de
+            novembro
+          </h2>
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener"
+              href="
+              https://g1.globo.com/pop-arte/games/noticia/2021/11/04/round-6-a-gamer-que-foi-atacada-por-ter-nome-de-serie-da-netflix.ghtml"
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://s2.glbimg.com/EP7rpXQuSoY_uAUyg3JBE0P8mq8=/0x0:1500x996/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/D/N/QwljJyRYyQvz8f4tcRQw/round-6.jpg" /></a>
+          </aside>
+          <h2 class="news-header news-content">
+            'Round 6': a gamer que foi atacada por ter nome de série da
+            Netflix
+          </h2>
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener" href="
+              https://g1.globo.com/pop-arte/games/noticia/2021/11/02/netflix-lanca-jogos-para-celulares.ghtml"
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://s2.glbimg.com/797DuILmLFn5nncBByXMcyki17E=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/L/0/bvhlZwQAeAMPFxkeGbrA/netflix.jpg" /></a>
+          </aside>
+          <h2 class="news-header news-content">Netflix lança jogos para celulares</h2>
+
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener" href=" https://www.theenemy.com.br/pc/novo-saints-row-e-adiado-em-seis-meses"
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://upload.wikimedia.org/wikipedia/en/b/b5/Saints_Row_2022_Cover_Art.jpeg" /></a>
+          </aside>
+          <h2 class="news-header news-content">
+            Novo Saints Row é adiado em seis meses
+          </h2>
+
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener" href="
+              https://www.tecmundo.com.br/voxel/228811-pokemon-go-anuncia-colaboracao-ed-sheeran.htm"
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://tm.ibxk.com.br/2021/11/16/16165345719494.jpg?ims=704x264" /></a>
+          </aside>
+          <h2 class="news-header news-content">
+            Pokémon GO anuncia colaboração com Ed Sheeran
+          </h2>
+        </div>
+
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener" href=" https://www.theenemy.com.br/pc/fortnite-naruto-ja-esta-disponivel"
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://cdn.ome.lt/ek3CUZxKPKSIkbk1FBuYIerP7RU=/770x0/smart/uploads/conteudo/fotos/fortnite-naruto.jpg" /></a>
+          </aside>
+          <h2 class="news-header news-content">Fortnite: Naruto já está disponível</h2>
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener" href=" https://www.theenemy.com.br/social/the-witcher-jovem-vesemir" target="_blank"><img
+                loading="lazy" alt="News Entry"
+                src="https://cdn.ome.lt/gwxS_dbS7GE0yxBWRCSUTKo2Qbw=/770x0/smart/uploads/conteudo/fotos/The_Witcher_Vesemir.png" /></a>
+          </aside>
+          <h2 class="news-header news-content">
+            The Witcher: Fã cria versão jovem de Vesemir
+          </h2>
+
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener"
+              href=" https://www.theenemy.com.br/mobile/arcane-chega-ao-pubg-mobile-com-a-atualizacao-13"
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://cdn.ome.lt/qfQSJB9wbIQQUKB8Oy99AMrYxek=/770x0/smart/uploads/conteudo/fotos/unnamed_vUJzwIz.png" /></a>
+          </aside>
+          <h2 class="news-header news-content">
+            Arcane chega ao PUBG Mobile com a atualização 1.7
+          </h2>
+
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener" href=" https://www.theenemy.com.br/pc/nuuvem-desconto-novembro-3" target="_blank"><img
+                loading="lazy" alt="News Entry"
+                src="https://cdn.ome.lt/UiexpVoMqjfrC7hPNOd3NvOg9GI=/970x360/smart/uploads/conteudo/fotos/captain_tsubasa.jpg" /></a>
+          </aside>
+          <h2 class="news-header news-content">Nuuvem: Jogos de PC com desconto de até 90% até sexta (19)</h2>
+        </div>
+
+        <div class="news inner">
+          <aside class="img">
+            <a rel="noopener" href=" https://www.theenemy.com.br/xbox/xbox-cloud-gaming-chega-ao-xbox"
+              target="_blank"><img loading="lazy" alt="News Entry"
+                src="https://cdn.ome.lt/zB_P0wi7pMX9DHf-bKN0YRDRNvM=/970x360/smart/uploads/conteudo/fotos/Halo_20_oQduyjR.jpg" /></a>
+          </aside>
+          <h2 class="news-header news-content">Xbox Cloud Gaming chega aos consoles Xbox</h2>
+        </div>
       </div>
 
-      <section class="News-container">
-        <div class="blocks">
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.tecmundo.com.br/voxel/228859-jogos-nuvem-devem-ter-crescimento-us-13-5-bilhoes-2026.htm"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://tm.ibxk.com.br/2021/11/17/17125719917239.jpg?ims=704x264"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">
-                  Jogos em nuvem devem ter crescimento de US$ 13,5 bilhões até
-                  2026
-                </h3>
-              </div>
-            </div>
-          </div>
+    </section>
+  </main>
 
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.tecmundo.com.br/voxel/228881-ubisoft-oferece-splinter-cell-chaos-theory-graca-pc.htm#:~:text=Splinter%20Cell%20Chaos%20Theory%20est%C3%A1%20de%20gra%C3%A7a%20para%20PC%20at%C3%A9%2025%20de%20novembro,-17%2F11%2F2021&text=O%20resgate%20do%20t%C3%ADtulo%20pode,foi%20Assassin's%20Creed%20Chronicles%20Trilogy."
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://tm.ibxk.com.br/2021/11/17/17153118144416.jpg?ims=704x264"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">
-                  Splinter Cell Chaos Theory está de graça para PC até 25 de
-                  novembro
-                </h3>
-              </div>
-            </div>
-          </div>
+  <footer>
+    <span>R.E.L</span>
+    <p>Web-Design</p>
+  </footer>
 
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://g1.globo.com/pop-arte/games/noticia/2021/11/04/round-6-a-gamer-que-foi-atacada-por-ter-nome-de-serie-da-netflix.ghtml"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://s2.glbimg.com/EP7rpXQuSoY_uAUyg3JBE0P8mq8=/0x0:1500x996/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/D/N/QwljJyRYyQvz8f4tcRQw/round-6.jpg"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">
-                  'Round 6': a gamer que foi atacada por ter nome de série da
-                  Netflix
-                </h3>
-              </div>
-            </div>
-          </div>
+  <script src="/scripts/menu.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
 
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://g1.globo.com/pop-arte/games/noticia/2021/11/02/netflix-lanca-jogos-para-celulares.ghtml"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://s2.glbimg.com/797DuILmLFn5nncBByXMcyki17E=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/L/0/bvhlZwQAeAMPFxkeGbrA/netflix.jpg"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">Netflix lança jogos para celulares</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.theenemy.com.br/pc/novo-saints-row-e-adiado-em-seis-meses"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://upload.wikimedia.org/wikipedia/en/b/b5/Saints_Row_2022_Cover_Art.jpeg"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">
-                  Novo Saints Row é adiado em seis meses
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.tecmundo.com.br/voxel/228811-pokemon-go-anuncia-colaboracao-ed-sheeran.htm"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://tm.ibxk.com.br/2021/11/16/16165345719494.jpg?ims=704x264"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">
-                  Pokémon GO anuncia colaboração com Ed Sheeran
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.theenemy.com.br/pc/fortnite-naruto-ja-esta-disponivel"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://cdn.ome.lt/ek3CUZxKPKSIkbk1FBuYIerP7RU=/770x0/smart/uploads/conteudo/fotos/fortnite-naruto.jpg"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">Fortnite: Naruto já está disponível</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.theenemy.com.br/social/the-witcher-jovem-vesemir"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://cdn.ome.lt/gwxS_dbS7GE0yxBWRCSUTKo2Qbw=/770x0/smart/uploads/conteudo/fotos/The_Witcher_Vesemir.png"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">
-                  The Witcher: Fã cria versão jovem de Vesemir
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.theenemy.com.br/mobile/arcane-chega-ao-pubg-mobile-com-a-atualizacao-13"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://cdn.ome.lt/qfQSJB9wbIQQUKB8Oy99AMrYxek=/770x0/smart/uploads/conteudo/fotos/unnamed_vUJzwIz.png"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">
-                  Arcane chega ao PUBG Mobile com a atualização 1.7
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.theenemy.com.br/pc/nuuvem-desconto-novembro-3"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://cdn.ome.lt/UiexpVoMqjfrC7hPNOd3NvOg9GI=/970x360/smart/uploads/conteudo/fotos/captain_tsubasa.jpg"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">Nuuvem: Jogos de PC com desconto de até 90% até sexta (19)</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="news">
-            <div class="inner">
-              <div class="img">
-                <a
-                  href="https://www.theenemy.com.br/xbox/xbox-cloud-gaming-chega-ao-xbox"
-                  target="_blank"
-                  ><img
-                    alt="News Entry"
-                    src="https://cdn.ome.lt/zB_P0wi7pMX9DHf-bKN0YRDRNvM=/970x360/smart/uploads/conteudo/fotos/Halo_20_oQduyjR.jpg"
-                /></a>
-              </div>
-              <div class="news-content">
-                <h3 class="news-header">Xbox Cloud Gaming chega aos consoles Xbox</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <span>R.E.L</span>
-      <p>Web-Design</p>
-    </footer>
-
-    <script src="/scripts/menu.js"></script>
-  </body>
 </html>

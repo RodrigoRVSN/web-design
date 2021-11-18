@@ -16,6 +16,9 @@ main .page-1 {
   align-items: center;
   margin-top: -24vh;
 }
+main .page-1 p {
+  z-index: 1;
+}
 
 .controller {
   z-index: 1;
@@ -24,6 +27,7 @@ main .page-1 {
   cursor: pointer;
   gap: 0.5rem;
 }
+
 
 .controller:hover {
   animation: controller-animation 1s ease-out forwards infinite;
@@ -61,7 +65,13 @@ main .page-1 {
   align-items: center;
   padding: 1rem;
   background: linear-gradient(0, #04012c, #000000);
+  opacity: 0;
 }
+
+.appearInPage{
+  animation: appearInPageAnim 0.8s forwards;
+}
+
 
 .stars{
 	width: 3px;
@@ -78,15 +88,6 @@ main .page-1 {
     animation: anim-stars 10s linear infinite;
 }
 
-@keyframes anim-stars {
-  from {
-      transform: translateY(0px);
-  }
-  to {
-      transform: translateY(-150px);
-  }
-}
-
 .stars2{
   position: relative;
   width: 1px;
@@ -101,11 +102,18 @@ main .page-1 {
     120px 130px white,
     300px 130px white,
     220px 115px white;
-  animation: anim-stars 20s linear infinite;
+  animation: anim-stars 20s linear infinite forwards reverse;
 }
 
 #page-2 > article {
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page-2 > img {
+  animation: shake 4.2s infinite reverse; 
 }
 
 #page-2 > article > h2 {
@@ -113,7 +121,6 @@ main .page-1 {
   margin-left: 2rem;
   text-align: justify;
 }
-
 .p-geek-3 {
   font-family: Rubik;
   font-size: 40px;
